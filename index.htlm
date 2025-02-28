@@ -3,28 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fixongo</title>
+    <title>Fixongo - The Cellphone Repair Truck</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Fixongo</h1>
-        <p>Reparación de dispositivos electrónicos.</p>
+        <div class="logo">
+            <span class="fix">FIX</span><span class="ongo">ONGO</span>
+        </div>
+        <h2>The Cellphone Repair Truck</h2>
     </header>
 
-    <section id="servicios">
-        <h2>Servicios</h2>
-        <ul>
-            <li>Reparación de celulares</li>
-            <li>Reparación de computadoras</li>
-            <li>Reparación de tabletas</li>
-        </ul>
+    <section id="intro">
+        <p>Somos una empresa móvil dedicada a la reparación de computadoras, laptops, celulares, tabletas, cámaras de vigilancia, timbres inteligentes y lo hacemos directamente en la entrada de tu casa o trabajo. Valoramos tu tiempo y por eso nuestras reparaciones las hacemos en tan solo 30 minutos. Nuestra zona de cobertura es Panama City Beach, Panama City, Rosemary Beach, Santa Rosa Beach, Destin, Callaway, Lynn Haven.</p>
+    </section>
+
+    <section id="agendar">
+        <h3>Agendar Cita</h3>
+        <form action="mailto:fixongo.pcb@gmail.com" method="POST" enctype="multipart/form-data">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="telefono">Número de Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" required>
+
+            <label for="direccion">Dirección Completa:</label>
+            <input type="text" id="direccion" name="direccion" required>
+
+            <button type="submit">Enviar Cita</button>
+        </form>
     </section>
 
     <section id="contacto">
-        <h2>Contáctanos</h2>
-        <p>Puedes agendar una cita o preguntarnos más sobre nuestros servicios.</p>
-        <a href="https://wa.me/tu-numero" target="_blank">¡Escríbenos por WhatsApp!</a>
+        <p>Contáctanos al teléfono: <strong>850-305-6500</strong></p>
     </section>
 
     <footer>
