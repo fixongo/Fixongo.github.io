@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixongo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Fixongo</h1>
+        <p>Reparación de dispositivos electrónicos.</p>
+    </header>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Reparación de celulares</li>
+            <li>Reparación de computadoras</li>
+            <li>Reparación de tabletas</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <p>Puedes agendar una cita o preguntarnos más sobre nuestros servicios.</p>
+        <a href="https://wa.me/tu-numero" target="_blank">¡Escríbenos por WhatsApp!</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fixongo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
